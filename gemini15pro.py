@@ -10,6 +10,7 @@ os.environ['GOOGLE_API_KEY'] = 'AIzaSyBLwdezWY5BMrRyblc7uYIU9bdLF14hpS0'  # Repl
 # Initialize the Google Gemini client with API key
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 # Streamlit app
 st.title("VMathbot - Hệ thống hỗ trợ giải đáp câu hỏi Toán học")
 st.write("Nhập câu hỏi của bạn dưới dạng văn bản hoặc tải lên một hình ảnh!")
