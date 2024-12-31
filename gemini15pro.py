@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 # Set the Google Gemini API key directly as an environment variable
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyBLwdezWY5BMrRyblc7uYIU9bdLF14hpS0'  # Replace with your API key
+os.environ['GOOGLE_API_KEY'] = 'AIzaSyA3gw2WHxjPAGqCBtSp0GoYLF2v8ckkK2k'  # Replace with your API key
 
 # Initialize the Google Gemini client with API key
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
